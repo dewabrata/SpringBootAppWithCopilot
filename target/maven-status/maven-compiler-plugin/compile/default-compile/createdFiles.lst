@@ -1,5 +1,8 @@
+com/erdjbe26/webservice/dto/LogSupplierDto.class
 com/erdjbe26/webservice/entity/MapProdukSupplierId.class
+com/erdjbe26/webservice/mapper/LogSupplierMapperImpl.class
 com/erdjbe26/webservice/mapper/KategoriProdukMapperImpl.class
+com/erdjbe26/webservice/mapper/LogProdukMapper.class
 com/erdjbe26/webservice/dto/UserDto.class
 com/erdjbe26/webservice/dto/JwtAuthResponse.class
 com/erdjbe26/webservice/entity/MstMenu.class
@@ -12,7 +15,9 @@ com/erdjbe26/webservice/mapper/SupplierMapperImpl.class
 com/erdjbe26/webservice/mapper/MenuMapper.class
 com/erdjbe26/webservice/repository/MstKategoriProdukRepository.class
 com/erdjbe26/webservice/exception/ErrorDetails.class
+com/erdjbe26/webservice/mapper/LogKategoriProdukMapperImpl.class
 com/erdjbe26/webservice/controller/SupplierController.class
+com/erdjbe26/webservice/mapper/LogKategoriProdukMapper.class
 com/erdjbe26/webservice/entity/MstAkses.class
 com/erdjbe26/webservice/mapper/UserMapperImpl.class
 com/erdjbe26/webservice/service/AksesService.class
@@ -25,6 +30,7 @@ com/erdjbe26/webservice/entity/MstUser.class
 com/erdjbe26/webservice/service/impl/MenuServiceImpl.class
 com/erdjbe26/webservice/entity/MapAksesMenu.class
 com/erdjbe26/webservice/security/CustomUserDetailsService.class
+com/erdjbe26/webservice/mapper/LogProdukMapperImpl.class
 com/erdjbe26/webservice/entity/MstKategoriProduk.class
 com/erdjbe26/webservice/dto/KategoriProdukDto.class
 com/erdjbe26/webservice/controller/MenuController.class
@@ -33,6 +39,7 @@ com/erdjbe26/webservice/entity/MstSupplier.class
 com/erdjbe26/webservice/mapper/MenuMapperImpl.class
 com/erdjbe26/webservice/dto/LoginDto.class
 com/erdjbe26/webservice/mapper/AksesMapper.class
+com/erdjbe26/webservice/dto/LogProdukDto.class
 com/erdjbe26/webservice/mapper/SupplierMapper.class
 com/erdjbe26/webservice/controller/KategoriProdukController.class
 com/erdjbe26/webservice/exception/BadRequestException.class
@@ -46,11 +53,13 @@ com/erdjbe26/webservice/controller/AuthController.class
 com/erdjbe26/webservice/repository/LogKategoriProdukRepository.class
 com/erdjbe26/webservice/mapper/KategoriProdukMapper.class
 com/erdjbe26/webservice/WebserviceApplication.class
+com/erdjbe26/webservice/dto/LogKategoriProdukDto.class
 com/erdjbe26/webservice/repository/MstSupplierRepository.class
 com/erdjbe26/webservice/service/MenuService.class
 com/erdjbe26/webservice/dto/MenuDto.class
 com/erdjbe26/webservice/service/impl/AksesServiceImpl.class
 com/erdjbe26/webservice/security/JwtAuthenticationEntryPoint.class
+com/erdjbe26/webservice/mapper/LogSupplierMapper.class
 com/erdjbe26/webservice/repository/LogSupplierRepository.class
 com/erdjbe26/webservice/controller/ProdukController.class
 com/erdjbe26/webservice/aspect/AuditAspect.class
@@ -68,6 +77,7 @@ com/erdjbe26/webservice/service/impl/SupplierServiceImpl.class
 com/erdjbe26/webservice/service/UserService.class
 com/erdjbe26/webservice/repository/LogProdukRepository.class
 com/erdjbe26/webservice/mapper/AksesMapperImpl.class
+com/erdjbe26/webservice/controller/LogController.class
 com/erdjbe26/webservice/mapper/ProdukMapper.class
 com/erdjbe26/webservice/service/ProdukService.class
 com/erdjbe26/webservice/mapper/UserMapper.class

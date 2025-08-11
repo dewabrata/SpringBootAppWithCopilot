@@ -1,6 +1,8 @@
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/repository/MstMenuRepository.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/service/impl/SupplierServiceImpl.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/security/JwtAuthenticationEntryPoint.java
+/home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/dto/LogSupplierDto.java
+/home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/dto/LogProdukDto.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/entity/MstUser.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/controller/AksesController.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/security/CustomUserDetailsService.java
@@ -11,6 +13,7 @@
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/exception/ErrorDetails.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/service/MenuService.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/controller/KategoriProdukController.java
+/home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/dto/LogKategoriProdukDto.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/repository/MstUserRepository.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/repository/MstGroupMenuRepository.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/mapper/KategoriProdukMapper.java
@@ -35,6 +38,7 @@
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/exception/GlobalExceptionHandler.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/entity/LogSupplier.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/repository/MstSupplierRepository.java
+/home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/mapper/LogKategoriProdukMapper.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/entity/LogKategoriProduk.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/controller/ProdukController.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/dto/SupplierDto.java
@@ -50,6 +54,7 @@
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/service/impl/UserServiceImpl.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/entity/MapAksesMenu.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/entity/MstAkses.java
+/home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/mapper/LogProdukMapper.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/controller/AuthController.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/entity/MstGroupMenu.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/entity/MapProdukSupplier.java
@@ -57,7 +62,9 @@
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/security/SecurityConfig.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/entity/MstMenu.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/dto/RegisterUserDto.java
+/home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/mapper/LogSupplierMapper.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/dto/JwtAuthResponse.java
+/home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/controller/LogController.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/dto/UserDto.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/security/JwtAuthenticationFilter.java
 /home/runner/work/SpringBootAppWithCopilot/SpringBootAppWithCopilot/src/main/java/com/erdjbe26/webservice/mapper/SupplierMapper.java
